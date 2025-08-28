@@ -1,49 +1,61 @@
-🚀 AWS Face Recognition App
+<br>
+<p align="center">
+  <b> 🚀 AWS Face Recognition App </b>
+</p>
+<br>
+<hr>
+
+
 
 An end-to-end Face Recognition application built using AWS services like Rekognition, S3, Lambda, IAM, and DynamoDB.
 This project demonstrates how to leverage serverless and AI/ML services on AWS to build a scalable image recognition pipeline.
 
-⚡ Features
+<b> ⚡ Features </b>
 
-Upload images to an S3 bucket for processing.
+- Upload images to an S3 bucket for processing.
 
-Lambda function triggers AWS Rekognition for facial analysis.
+- Lambda function triggers AWS Rekognition for facial analysis.
 
-Results (faces detected, attributes, confidence scores) are stored in DynamoDB.
+- Results (faces detected, attributes, confidence scores) are stored in DynamoDB.
 
-IAM policies ensure secure service-to-service communication.
+- IAM policies ensure secure service-to-service communication.
 
-Fully serverless and scalable — no servers to manage.
+- Fully serverless and scalable — no servers to manage.
 
-🛠️ Technologies Used
+  <br>
 
-Amazon S3 – Image storage
+<b>🛠️ Technologies Used</b>
 
-AWS Lambda – Serverless compute
+- Amazon S3 – Image storage
 
-Amazon Rekognition – Face detection & recognition
+- AWS Lambda – Serverless compute
 
-Amazon DynamoDB – NoSQL database for results
+- Amazon Rekognition – Face detection & recognition
 
-AWS IAM – Secure role & policy management
+- Amazon DynamoDB – NoSQL database for results
 
-AWS CLI & Python – Infrastructure setup & scripting
+- AWS IAM – Secure role & policy management
 
-🚀 How It Works
+- AWS CLI & Python – Infrastructure setup & scripting
+<br>
+<b> 🚀 How It Works </b>
 
-Setup: Connect to your AWS account using the AWS CLI.
+- Setup: Connect to your AWS account using the AWS CLI.
 
-Provision Resources: Create S3, DynamoDB, and IAM roles using CLI or the AWS Console.
+- Provision Resources: Create S3, DynamoDB, and IAM roles using CLI or the AWS Console.
 
-Deploy Code: Upload the Python script to AWS Lambda.
+- Deploy Code: Upload the Python script to AWS Lambda.
 
-Upload Images: Train Rekognition by uploading images to S3.
+- Upload Images: Train Rekognition by uploading images to S3.
 
-Run Inference: Lambda triggers Rekognition to detect and analyze faces.
+- Run Inference: Lambda triggers Rekognition to detect and analyze faces.
+<br>
 
-📍 Deployment Details
+<b>📍 Deployment Details</b>
 
 Region: US East (N. Virginia) - us-east-1
 
+---
 
+Simulation <br>
 ![Demo](gif.gif)
