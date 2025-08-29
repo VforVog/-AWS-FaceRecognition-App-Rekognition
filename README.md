@@ -57,4 +57,4 @@ Region: US East (N. Virginia) - us-east-1
 
 Simulation <br>
 <br>
-![Demo](gif.gif)
+![Demo](gif/gif.gif)
