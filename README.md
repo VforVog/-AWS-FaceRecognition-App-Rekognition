@@ -28,7 +28,7 @@ This project demonstrates how to leverage serverless and AI/ML services on AWS t
 
 - AWS Lambda – Serverless compute
 
-- Amazon Rekognition – Face detection & recognition
+- Amazon Rekognition – Face detection & recognition 
 
 - Amazon DynamoDB – NoSQL database for results
 
